@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.heading {
+  font-family: 'roboto';
+  font-weight: bold;
+  margin-left: 20px;
+}
+.search-input {
+  margin-left: 20px;
+}
+.destination-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}
