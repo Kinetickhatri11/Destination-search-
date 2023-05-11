@@ -1,15 +1,24 @@
 /* Write your CSS here */
-.item-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: 'Roboto';
+.card-container {
+  list-style-type: none;
+  width: 235px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 32px;
 }
-.destination-image {
-  border-radius: 10px;
-  height: 100px;
-  width: 120px;
+.location-image {
+  width: 235px;
+  height: 175px;
 }
-.destination-name {
-  color: black;
+
+.location-name {
+  color: #000000;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .location-name {
+    font-size: 20px;
+  }
 }
